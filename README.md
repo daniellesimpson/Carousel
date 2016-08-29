@@ -7,8 +7,10 @@ Time spent: `~6 hours'
 ### Features
 
 
-- [x]Required
-- [x][x]Optional
+1. Landing Screen
+- [x] Display a scrollable view of images
+- [x] User can tap on the conversations button to see the conversations screen
+- [x] User can tap on the profile image to see the settings view
 
 
 1.Landing Screen
