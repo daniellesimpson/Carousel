@@ -7,8 +7,8 @@ Time spent: `~6 hours'
 ### Features
 
 Landing Screen
-[x] Static photo tiles on the initial screen.
-[x] User can scroll to reveal sign in buttons.
+- [ ]Static photo tiles on the initial screen.
+- [x]User can scroll to reveal sign in buttons.
 
 Sign In
 [x] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
