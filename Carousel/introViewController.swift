@@ -37,6 +37,7 @@ class introViewController: UIViewController, UIScrollViewDelegate{
         scrollView.delegate = self
 
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
