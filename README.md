@@ -6,21 +6,16 @@ Time spent: ~6 hours
 
 ### Features
 
--[x]
-- [x]
-–[x]
-– [x]
-
 Landing Screen
 Static photo tiles on the initial screen.
-- [x]User can scroll to reveal sign in buttons.
+- [x] User can scroll to reveal sign in buttons.
 
 Sign In
-[x] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
-[x] Upon tapping the Sign In button.
-    [x] If the username or password fields are empty, user sees an error alert.
-    [x] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
-    [x] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
+- [x] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
+- [x] Upon tapping the Sign In button.
+    - [x] If the username or password fields are empty, user sees an error alert.
+    - [x] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
+    - [x] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
 
 Tutorial Screens
 [x] User can page between the screens.
