@@ -18,43 +18,43 @@ Sign In
     - [x] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
 
 Tutorial Screens
-[x] User can page between the screens.
+- [x] User can page between the screens.
 
 Image Timeline
-[x]Display a scrollable view of images.
-[x]User can tap on the conversations button to see the conversations screen (push).
-[x]User can tap on the profile image to see the settings view (modal from below).
+- [x] Display a scrollable view of images.
+- [x] User can tap on the conversations button to see the conversations screen (push).
+- [x] User can tap on the profile image to see the settings view (modal from below).
 
 Conversations
-[x]User can dismiss the conversations screen.
+- [x] User can dismiss the conversations screen.
 
 Settings
-[x] User can dismiss the settings screen.
-[x]User can log out.
+- [x] User can dismiss the settings screen.
+- [x] User can log out.
 
 
 Optional User Stories
 
 Landing Screen:
-[x]Photo tiles move, scale and rotate while user scrolls.
+- [x] Photo tiles move, scale and rotate while user scrolls.
 
 Sign In:
-[x]User can scroll down to dismiss keyboard.
-[x]User sees the form scale up and fade it in as the screen appears.
+- [x] User can scroll down to dismiss keyboard.
+- [x] User sees the form scale up and fade it in as the screen appears.
 
 Sign up / Create a Dropbox:
-[x]Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
-[x]Tapping the "Agree to Terms" checkbox selects the checkbox.
-[x]Tapping on "Terms" shows a web view with the terms.
-[x]User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
+- [x] Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
+- [x] Tapping the "Agree to Terms" checkbox selects the checkbox.
+- [x] Tapping on "Terms" shows a web view with the terms.
+- [x] User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
 
 Tutorial Screens:
-[x]User can page between the screens with updated dots.
-[x]Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
+- [x] User can page between the screens with updated dots.
+- [x] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
 
 
 Settings
-[x]User is presented with an action sheet with actions to "cancel" or "logout".
+- [x] User is presented with an action sheet with actions to "cancel" or "logout".
 
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
