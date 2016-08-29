@@ -4,7 +4,7 @@ The purpose of this homework is to leverage views, view properties, and events t
 
 Time spent: ~6 hours
 
-### Features
+### Required Features
 
 Landing Screen
 Static photo tiles on the initial screen.
@@ -33,7 +33,7 @@ Settings
 - [x] User can log out.
 
 
-Optional User Stories
+### Optional User Stories
 
 Landing Screen:
 - [x] Photo tiles move, scale and rotate while user scrolls.
@@ -68,7 +68,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](https://raw.githubusercontent.com/daniellesimpson/Carousel/master/SImpson_Carousel_2.gif)
+![Video Walkthrough](https://github.com/daniellesimpson/Carousel/blob/master/SImpson_Carousel_2.gif)
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
