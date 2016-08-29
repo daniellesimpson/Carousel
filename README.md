@@ -6,19 +6,14 @@ Time spent: `~6 hours'
 
 ### Features
 
-
-[x] Required
-[x] [x]Optional
-
-
-1.Landing Screen
-    - [x] Static photo tiles on the initial screen
-    - [x] User can scroll to reveal sign in buttons
-    - [x] [x] Photo tiles move, scale, and rotate while users scroll
+1. Landing Screen
+    [x] Static photo tiles on the initial screen
+    [x] User can scroll to reveal sign in buttons
+    [x] [x] Photo tiles move, scale, and rotate while users scroll
 
 2a. Sign in
-    - [x] Tap email/password reveals keyboard and shifts elements on screen
-    - [x] Upon tapping the sign in button
+    [x] Tap email/password reveals keyboard and shifts elements on screen
+    [x] Upon tapping the sign in button
         - [x]If the username or password fields are empty, user sees an error alert
         - [x]If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert
         - [x] If credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign in screens
