@@ -6,11 +6,57 @@ Time spent: `~6 hours'
 
 ### Features
 
+Landing Screen
+[x] Static photo tiles on the initial screen.
+[x] User can scroll to reveal sign in buttons.
+
+Sign In
+[x] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
+[x] Upon tapping the Sign In button.
+    [x] If the username or password fields are empty, user sees an error alert.
+    [x] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
+    [x] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
+
+Tutorial Screens
+[x] User can page between the screens.
+Image Timeline
+Display a scrollable view of images.
+User can tap on the conversations button to see the conversations screen (push).
+User can tap on the profile image to see the settings view (modal from below).
+Conversations
+User can dismiss the conversations screen.
+Settings
+User can dismiss the settings screen.
+User can log out.
+Optional User Stories
+Landing Screen:
+Photo tiles move, scale and rotate while user scrolls.
+Sign In:
+User can scroll down to dismiss keyboard.
+User sees the form scale up and fade it in as the screen appears.
+Sign up / Create a Dropbox:
+Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
+Tapping the "Agree to Terms" checkbox selects the checkbox.
+Tapping on "Terms" shows a web view with the terms.
+User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
+Tutorial Screens:
+User can page between the screens with updated dots.
+Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
+Learn more about Carousel:
+Show the "Learn more about Carousel" button in the photo timeline.
+Tap the X to dismiss the banner.
+Track the 3 events:
+(1) View a photo full screen, (2) Swipe left and right and (3) Share a photo.
+Upon completion of the events, mark them green.
+When all events are completed, dismiss the banner.
+Settings
+User is presented with an action sheet with actions to "cancel" or "logout".
+
 
 1. Landing Screen
     [x] Static photo tiles on the initial screen
     [x] User can scroll to reveal sign in buttons
-    [x] [x] Photo tiles move, scale, and rotate while users scroll
+    [x] Photo tiles move, scale, and rotate while users scroll
 
 
 2a. Sign in
@@ -19,8 +65,8 @@ Time spent: `~6 hours'
         - [x]If the username or password fields are empty, user sees an error alert
         - [x]If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert
         - [x] If credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign in screens
-    - [x] [x] User can scroll down to dismiss the keyboard
-    - [x] [x] User sees the form scale up and fade it in as the screen appears
+    - [x] User can scroll down to dismiss the keyboard
+    - [x] User sees the form scale up and fade it in as the screen appears
 
 2b. Sign up / Create a Dropbox
     - [x][x]Tapping in the form reveals keyboard and scrolls the form and button up to be visible
@@ -60,7 +106,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](https://github.com/daniellesimpson/BoxOfDrop/blob/master/BoxOfDrop.gif)
+![Video Walkthrough](https://raw.githubusercontent.com/daniellesimpson/Carousel/master/SImpson_Carousel_2.gif)
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
