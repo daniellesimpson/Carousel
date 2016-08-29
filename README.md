@@ -7,7 +7,7 @@ Time spent: ~6 hours
 ### Features
 
 Landing Screen
-- [ ]Static photo tiles on the initial screen.
+Static photo tiles on the initial screen.
 - [x]User can scroll to reveal sign in buttons.
 
 Sign In
