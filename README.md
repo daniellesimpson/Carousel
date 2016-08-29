@@ -14,16 +14,16 @@ Time spent: `~6 hours'
 1.Landing Screen
     - [x] Static photo tiles on the initial screen
     - [x] User can scroll to reveal sign in buttons
-    - [x][x] Photo tiles move, scale, and rotate while users scroll
+    - [x] [x] Photo tiles move, scale, and rotate while users scroll
 
 2a. Sign in
-    - [x]Tap email/password reveals keyboard and shifts elements on screen
+    - [x] Tap email/password reveals keyboard and shifts elements on screen
     - [x] Upon tapping the sign in button
         - [x]If the username or password fields are empty, user sees an error alert
         - [x]If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert
         - [x] If credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign in screens
-    - [x][x] User can scroll down to dismiss the keyboard
-    - [x][x] User sees the form scale up and fade it in as the screen appears
+    - [x] [x] User can scroll down to dismiss the keyboard
+    - [x] [x] User sees the form scale up and fade it in as the screen appears
 
 2b. Sign up / Create a Dropbox
     - [x][x]Tapping in the form reveals keyboard and scrolls the form and button up to be visible
