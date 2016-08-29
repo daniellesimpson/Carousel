@@ -23,6 +23,27 @@ class settingsViewController: UIViewController {
         dismissViewControllerAnimated(true, completion: nil)
     }
     
+    @IBAction func signOutTap(sender: AnyObject) {
+        let alertController = UIAlertController(title: "", message: "Are you sure you want to sign out?", preferredStyle: .ActionSheet)
+        
+        let cancelAction = UIAlertAction(title: "Sign Out", style: .Destructive) { (action) in
+            self.performSegueWithIdentifier("signOutSegue", sender: self)
+            
+        }
+        
+        alertController.addAction(cancelAction)
+        
+        let OKAction = UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
+            
+            
+        }
+        
+        alertController.addAction(OKAction)
+        
+        presentViewController(alertController, animated: true, completion: nil)
+    }
+    
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

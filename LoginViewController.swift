@@ -143,7 +143,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
         }
     
     func checkPassword(){
-        if emailField.text == "e" && passwordField.text == "p" {
+        if emailField.text == "danielle@gmail.com" && passwordField.text == "password" {
             performSegueWithIdentifier("tutorialSegue", sender: self)
             
         } else {

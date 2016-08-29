@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="S0g-J2-PJX">
-                                <rect key="frame" x="0.0" y="61" width="320" height="507"/>
+                                <rect key="frame" x="0.0" y="61" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro" id="rWR-K8-iXB">
@@ -33,12 +33,8 @@
                                         <rect key="frame" x="197" y="760" width="76" height="76"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile4" id="z1B-La-0uP">
-                                        <rect key="frame" x="44" y="835" width="76" height="76"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile5" id="OiO-hP-SCS">
-                                        <rect key="frame" x="121" y="835" width="76" height="75"/>
+                                        <rect key="frame" x="121" y="837" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile6" id="xt7-py-doi">
@@ -59,6 +55,10 @@
                                             <segue destination="L53-lA-hQO" kind="push" id="lLj-DR-0lg"/>
                                         </connections>
                                     </button>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile4" id="z1B-La-0uP">
+                                        <rect key="frame" x="44" y="836" width="76" height="76"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -278,11 +278,11 @@
                                                 <rect key="frame" x="0.0" y="86" width="320" height="113"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" id="nMN-Q6-3zw">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" id="nMN-Q6-3zw">
                                                 <rect key="frame" x="28" y="144" width="274" height="41"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="GBX-JO-8bE">
                                                 <rect key="frame" x="28" y="100" width="274" height="41"/>
@@ -473,14 +473,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="xXU-Vh-ASq">
-                                        <rect key="frame" x="0.0" y="-65" width="320" height="695"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="695"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aZy-Wy-IHN">
-                                        <rect key="frame" x="0.0" y="558" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="623" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="UG7-7w-h38" kind="modal" id="tQS-pJ-Tli"/>
+                                            <action selector="signOutTap:" destination="eJy-EK-nMV" eventType="touchUpInside" id="mPS-xH-O2w"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -495,8 +495,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="scrollView" destination="fso-I2-k39" id="V5E-Is-D97"/>
+                        <segue destination="BYZ-38-t0r" kind="modal" identifier="signOutSegue" id="BLe-es-UKp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G4X-H8-V0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -601,6 +604,7 @@
         <image name="welcome4" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XHt-04-aPG"/>
+        <segue reference="Dew-sT-4lc"/>
+        <segue reference="BLe-es-UKp"/>
     </inferredMetricsTieBreakers>
 </document>
