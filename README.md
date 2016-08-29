@@ -7,8 +7,8 @@ Time spent: `~6 hours'
 ### Features
 
 
-- [x]Required
-- [x][x]Optional
+[x] Required
+[x] [x]Optional
 
 
 1.Landing Screen
